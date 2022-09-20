@@ -1,0 +1,14 @@
+package lab4;
+
+public class Combinations {
+
+	public Combinations() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
