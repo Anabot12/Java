@@ -7,7 +7,7 @@ public class MarksAndGrades{
             arr[i] = Integer.parseInt(args[i]) ;
         }
        
-            for(int i =0; i < 10; i++)
+            for(int i =0; i <= 10; i++)
         {
             System.out.println(arr[i]) ;
 

@@ -1,7 +1,8 @@
-class Ananya
+class To show that private member of a super class cannot be accessed from derived classes
 {
-    private int a,b;
-    Ananya(int x,int y)
+    public public static void main(String args[])
+    int a,b;
+    To show that private member of a super class cannot be accessed from derived classes(int x,int y)
     {
     a=x; b=y;
     }
@@ -10,7 +11,7 @@ class Ananya
     return(a*b);
     }
 }
-class class_room extends Ananya
+class class_room extends To show that private member of a super class cannot be accessed from derived classes
 {
     int h;
     class_room(int x,int y,int z)
