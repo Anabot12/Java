@@ -1,5 +1,5 @@
-package LAB5.Account;
-import LAB5.Balance.Account;
+package Lab5.Account;
+import Lab5.Balance.Account;
 
 public class Display {
     

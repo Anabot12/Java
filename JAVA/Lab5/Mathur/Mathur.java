@@ -1,6 +1,6 @@
-package LAB5.Mathur;
+package Lab5.Mathur;
 
-import LAB5.Ananya;
+import Lab5.Ananya;
 
 public class Mathur {
     public static void main(String[] args)

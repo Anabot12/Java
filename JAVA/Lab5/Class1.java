@@ -1,4 +1,4 @@
-package LAB5;
+package Lab5;
 
 public class Class1 {
     private InnerClass1 ic;

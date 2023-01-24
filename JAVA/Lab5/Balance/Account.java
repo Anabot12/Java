@@ -1,4 +1,4 @@
-package LAB5.Balance;
+package Lab5.Balance;
 
 public class Account {
     public int display_balance(int bal)

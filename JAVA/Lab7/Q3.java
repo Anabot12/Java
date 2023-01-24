@@ -19,10 +19,10 @@ class Q3
 {
     public static void main(String args[]) 
     {
-        int a,b,c=0;
+      
         try
         {
-            a=Integer.parseInt(args[0]);
+            Integer.parseInt(args[0]);
             throw new NonNum();
         }
         catch(NumberFormatException e)

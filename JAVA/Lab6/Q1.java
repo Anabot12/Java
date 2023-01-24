@@ -1,13 +1,16 @@
 package Lab6;
 class Q1
 {
-    private int weight=90;
+     int weight =90;
 }
 class Q2 extends Q1
 {
-    private void msg()
+    void msg()
     {
         System.out.println("hello this is lab6");
+    }
+
+    public void hello() {
     }
 }
 class Q3 extends Q2
@@ -22,7 +25,6 @@ class hello_inheritance
     public static void main(String[] args)
     {
         Q2 obj= new Q2();
-        Q3 obj=new Q3();
         obj.msg();
         obj.hello();
        System.out.println(obj.weight);

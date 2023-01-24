@@ -1,6 +1,6 @@
 package Lab7;
 
-public class Q2 {
+public class Q2A {
     public static void main(String[] args)
     {
         int a = 1;
