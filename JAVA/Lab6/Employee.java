@@ -32,7 +32,7 @@ class manager extends Employee
     public String department="d";
     public static void main(String args[])
 {
- Scanner sc = new Scanner(System.in);
+ try (Scanner sc = new Scanner(System.in))
 {
     System.out.println("enter the name");
     String n=sc.next();
