@@ -4,19 +4,19 @@ public class Crc
         public static String XOR(String a, String b)
         {
             int n=a.length();
-            String res="";
+            String an="";
             for(int i=0;i<n;i++)
             {
                 if(a.charAt(i)==b.charAt(i))
                 {
-                    res=res+'0';
+                    an=an+'0';
                 }
                 else
-                {
-                    res=res+'1';
+                { 
+                    an=an+'1';
                 }
             }
-            return res;
+            return an;
         }
     
         public static String modulo2(String divisor, String dividend)
@@ -65,9 +65,9 @@ public class Crc
 
     {
     
-        System.out.println("Choose any 1 polynomial out of the following for CRC:\n1.CRC-8\n2.CRC-12\n3.ITU-16\n4.ITU-32\n");
+        System.out.println("Choose any 1 polynomial out of the following for CRC:\n1.CRC-8\n2.CRC-12\n3.ITU-16\n4.ITU-32\n5.User input\n");
         try (Scanner sc = new Scanner(System.in)) {
-            String a,b,poly,res;
+            String a,b,poly,an;
             poly = sc.next();
 
             switch(poly) 
@@ -75,33 +75,40 @@ public class Crc
                 case "1":
                     a="100000111";
                     b="1011";
-                    res=modulo2(b,a);
-                    System.out.println(res);
+                    an=modulo2(b,a);
+                    System.out.println(an);
                     break;
                 case "2":
                     a="11000110101";
                     b="1011";
-                    res=modulo2(b,a);
-                    System.out.println(res);
+                    an=modulo2(b,a);
+                    System.out.println(an);
                     break;
                 case "3":
                     a="10001000000100001";
                     b="1011";
-                    res=modulo2(b,a);
-                    System.out.println(res);
+                    an=modulo2(b,a);
+                    System.out.println(an);
                     break;
                 case "4":
                     a="100000100110000010001110110110111";
                     b="1011";
-                    res=modulo2(b,a);
-                    System.out.println(res);
+                    an=modulo2(b,a);
+                    System.out.println(an);
                     break;
+                case "5":
+                    System.out.println("Enter the divisor");
+                    a=sc.next();
+                    System.out.println("Enter the dividend");
+                    b=sc.next();
+                    an=modulo2(b,a);
+                    System.out.println(an);
+                    break;
+
 
             }
         }
     }
     
-
-  
 }
 
